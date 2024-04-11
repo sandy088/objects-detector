@@ -26,9 +26,10 @@ export default function Page() {
             Lets Start <ArrowRight className=" h-5 w-5 ml-2" />
           </Button>
         </Link>
+        <Link href={"https://github.com/sandy088/objects-detector"} target="_blank" className=" mx-auto">
         <Button variant={"link"} className=" text-[#A4A4A4] underline">
           Github Repo <ArrowUpRight className=" h-5 w-5 ml-0.5" />
-        </Button>
+        </Button></Link>
       </div>
     </div>
   );
